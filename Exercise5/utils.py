@@ -7,7 +7,7 @@ sys.path.append('..')
 from submission import SubmissionBase
 
 
-def trainLinearReg(linearRegCostFunction, X, y, lambda_=0.0, maxiter=200):
+def trainLinearReg(linearRegCostFunction, X, y, lambda_, maxiter=200):
     """
     Trains linear regression using scipy's optimize.minimize.
 
